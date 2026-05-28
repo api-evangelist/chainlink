@@ -1,0 +1,32 @@
+aid: chainlink
+name: Chainlink
+description: "Build hybrid smart contracts with Chainlink"
+url: https://chain.link/developer-resources
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Blockchain"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Blockchain
+  - Public APIs
+apis:
+  - name: Chainlink
+    description: "Build hybrid smart contracts with Chainlink"
+    humanURL: https://chain.link/developer-resources
+    baseURL: https://chain.link/developer-resources
+    tags:
+      - Blockchain
+    properties:
+      - type: Documentation
+        url: https://chain.link/developer-resources
+common:
+  - type: Website
+    url: https://chain.link/developer-resources
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
