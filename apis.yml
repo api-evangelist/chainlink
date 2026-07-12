@@ -25,6 +25,10 @@ apis:
   - url: graphql/chainlink-graphql.md
     type: GraphQL
 common:
+- type: VulnerabilityDisclosure
+  url: security/chainlink-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/chainlink-domain-security.yml
 - type: Website
   url: https://chain.link/developer-resources
 - type: PublicAPIsListing
