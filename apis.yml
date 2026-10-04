@@ -35,11 +35,11 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
 - Blockchain
 - Public APIs
+- Ethereum
 apis:
 - name: Chainlink
   description: Build hybrid smart contracts with Chainlink
   humanURL: https://chain.link/developer-resources
-  baseURL: https://chain.link/developer-resources
   tags:
   - Blockchain
   properties:
