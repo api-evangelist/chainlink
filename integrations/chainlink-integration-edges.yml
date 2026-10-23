@@ -53,6 +53,35 @@ edges:
     detected: '2026-10-21'
   detected_by: sweep-x402-micropayments.py
   first_seen: '2026-10-21'
+- partner_name: LF Decentralized Trust (membership / landscape)
+  partner: lf-decentralized-trust
+  partner_match: register
+  type: register
+  direction: partner-built
+  category: LF Decentralized Trust landscape listing
+  evidence: https://landscape.lfdecentralizedtrust.org
+  channel: standard-directory
+  relationship: standard-participant
+  contract_reference:
+    register: LF Decentralized Trust Landscape (landscape.lfdecentralizedtrust.org/data/full.json)
+    spec_file: null
+    standard: LF Decentralized Trust
+    role: landscape-listed
+    registered_name: Chainlink
+    registered_names:
+    - Chainlink
+    website: https://chain.link/
+    matched_domain: chain.link
+    matched_by: domain
+    landscape_categories:
+    - Interoperability / Point-to-point and overlayer approaches
+    landscape_entries: 1
+    signal_note: 'participation only: LFDT membership / a landscape listing is standard-participant evidence, not
+      depth. Tier, entries and categories are CONTEXT, never counted'
+    detected_by: sweep-lf-decentralized-trust-landscape.py
+    detected: '2026-10-22'
+  detected_by: sweep-lf-decentralized-trust-landscape.py
+  first_seen: '2026-10-22'
 generated: '2026-10-21'
 method: searched
 source:
@@ -77,3 +106,8 @@ checked:
 - https://x402-list.com
 - https://x402.org/members/
 - https://x402scan.com
+- https://github.com/LF-Decentralized-Trust-labs
+- https://github.com/canton-network/splice
+- https://github.com/hyperledger
+- https://landscape.lfdecentralizedtrust.org
+- https://landscape.lfdecentralizedtrust.org/data/full.json
